@@ -1,0 +1,2 @@
+When instruction has no reference to operand size, we must use pointer directive, such as
+mov DWORD PTR [ESI],5

@@ -1,6 +1,9 @@
 ;program waits for 3.5 seconds,
 ;than prints text to standard output
 ;from zero terminated string
+;compile with nasm -f elf64 sleep.asm
+;link with ld -e start sleep.o
+;run with ./a.out
 
 ;system calls
 SYS_WRITE equ 1

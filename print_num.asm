@@ -13,7 +13,6 @@ NUM equ 123
 
 section .bss
   digit resb 100
-  dPos resb 8
 
 section .text
   global start
